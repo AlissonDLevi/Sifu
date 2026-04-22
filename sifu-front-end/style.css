@@ -1,0 +1,90 @@
+:root {
+--azul: rgb(28, 60, 132);
+--verde: rgb(148, 195, 72);
+--bg: #f5f7fb;
+--card: #ffffff;
+}
+
+body {
+font-family: Arial, sans-serif;
+margin: 0;
+background: var(--bg);
+color: #333;
+}
+
+/* HEADER */
+header {
+background: var(--azul);
+color: white;
+padding: 15px;
+text-align: center;
+}
+
+nav {
+margin-top: 10px;
+}
+
+nav a {
+margin: 0 10px;
+color: white;
+text-decoration: none;
+font-weight: bold;
+}
+
+/* CONTEÚDO */
+main {
+max-width: 900px;
+margin: auto;
+padding: 20px;
+}
+
+/* CARDS */
+.card {
+background: var(--card);
+padding: 15px;
+margin-bottom: 15px;
+border-radius: 10px;
+box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+/* STATUS */
+.status-perdido {
+color: red;
+font-weight: bold;
+}
+
+.status-encontrado {
+color: var(--verde);
+font-weight: bold;
+}
+
+/* BOTÕES */
+button {
+background: var(--verde);
+border: none;
+padding: 10px;
+color: white;
+font-weight: bold;
+cursor: pointer;
+border-radius: 6px;
+}
+
+/* FORM */
+form {
+display: flex;
+flex-direction: column;
+}
+
+input, textarea, select {
+margin-bottom: 10px;
+padding: 10px;
+border-radius: 6px;
+border: 1px solid #ccc;
+}
+.item-img {
+width: 100%;
+height: 200px;
+object-fit: cover;
+border-radius: 10px;
+margin-bottom: 10px;
+}
